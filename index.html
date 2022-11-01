@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy a book on click of a button</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d13221f6ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+           <img src="images/Code Book.gif" alt="">
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="nav">
+            <a href="#user"><i class="fa-solid fa-user"></i>User</a>
+            <div id="user" class="userclass">
+                <div class="links">
+                    <a href="#login"><i class="fa-solid fa-right-to-bracket"></i>Login</a><br>
+                    <a href="#signup"><i class="fa-solid fa-user-plus"></i>Sign-up</a><br>
+                    <a href="#"><i class="fa-solid fa-rectangle-xmark"></i></a>
+                </div>
+            </div>
+            <!-- <a href="#more"><i class="fa-sharp fa-solid fa-circle-info"></i>More</a> -->
+            <a href="#cart" id="cart"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+        </div>
+    </div>
+    <div class="norolltxt">
+    </div>
+    <div class="menu">
+        <div class="links">
+            <a href="#cat">Categories</a> |
+            <a href="#newarr">New-Arrivals</a> |
+            <a href="#bestseller">Bestsellers</a> |
+            <a href="#begginer">Beginner's-Friendly</a> |
+        </div>
+    </div>
+    <div id="lander">
+        <div class="parent">
+            <div class="left">
+                <div class="slogan">
+                    Fill your Bookshelves with Tons of New Stories to Read!
+                </div>
+                <a href="#newarr"><input type="button" value="Explore" class="btn" ></a>
+            </div>
+            <div class="right">
+                <img src="images/giphy.gif" alt="newarr">
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="category" id="cat">
+        <a href="#">Classics</a><br>
+        <a href="#">Thrillers</a><br>
+        <a href="#">Non-fiction</a><br>
+        <a href="#">Competitive Exams</a><br>
+        <a href="#">Encyclopedia</a><br>
+        <a href="#">Children Stories</a><br>
+        <a href="#">Self Help</a><br>
+        <a href="#">Cooking and Baking</a><br>
+        <a href="#">Science Fiction</a><br>
+        <a href="#">Poetry</a><br>
+        <center><a href="#"><i class="fa-solid fa-rectangle-xmark"></i></a></center>
+    </div>
+    <div id="login">
+        <div class="sider">
+            <div class="rounder"></div>
+            <i><p id="quote">“Reading is an act of civilization; it’s one of the greatest acts of civilization because it takes the free raw material of the mind and builds castles of possibilities.”</p></i>
+            <img src="images/books.png" alt="" id="background">
+            <p class="author">Ben Okri</p>
+            
+        </div>
+        <div class="loginform">
+            <a href="#" id="cross"><i class="fa-solid fa-rectangle-xmark"></i></a>
+            <fieldset>
+                <legend>Login</legend>
+                <form action="">
+                    <div class="styleform">
+                        <input type="email" placeholder="Enter your Email Address" required><br>
+                        <input type="password" placeholder="Enter your Password" required>
+                    
+                    </div>
+                    <p id="tnc"><i>By continuing, you agree to Bookmart's Terms of Use and Privacy Policy.</i></p>
+                    <center>
+                        <input type="submit" value="Login" class="loginbtn">
+                        <p id="or">OR</p>
+                        <input type="button" value="Request OTP" class="loginbtn">
+                    </center>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+    <div id="signup">
+        <div class="sider">
+            <div class="rounder"></div>
+            <i><p id="quote">“Reading is an act of civilization; it’s one of the greatest acts of civilization because it takes the free raw material of the mind and builds castles of possibilities.”</p></i>
+            <img src="images/books.png" alt="" id="background">
+            <p class="author">Ben Okri</p>
+            
+        </div>
+        <div class="loginform">
+            <a href="#" id="cross"><i class="fa-solid fa-rectangle-xmark"></i></a>
+            <fieldset>
+                <legend>Sign-up</legend>
+                <form action="">
+                    <div class="styleform">
+                        <input type="text" placeholder="Enter your Name" required><br>
+                        <input type="email" placeholder="Enter your Email Address" required><br>
+                        <input type="password" placeholder="Create Password" required><br>
+                        <input type="password" placeholder="Confirm Password" required><br>
+                    </div>
+                    <p id="tnc"><i>By continuing, you agree to Bookmart's Terms of Use and Privacy Policy.</i></p>
+                    <center>
+                        <input type="submit" value="Create Account" class="loginbtn">
+                    </center>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+    <h1 class="headings" id="newarr">New Arrivals</h1>
+    <div class="newarrivals">
+        <a href="#bookdet1">
+            <div class="block">
+                <div class="discount">37%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/everysummerafter.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>Every Summer After</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Carley Fortune</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;796</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;1,264</del></span>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="#bookdet1">
+            <div class="block">
+                <div class="discount">35%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/skinrev.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>Skin Revolution</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Rattan</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;779</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;1,199</del></span>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <a href="#bookdet1">
+            <div class="block">
+                <div class="discount">30%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/spy.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>Spy X Family, Vol. 7</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Tatsuya Endo</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;560</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;800</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+        <a href="#bookdet1">
+            <div class="block">
+                <div class="discount">33%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/kaiju.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>Kaiju No. 8, Vol. 2</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Naoya Matsumoto</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;529</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;790</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+        <a href="#bookdet1">
+            <div class="block">
+                <div class="discount">40%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/secretofwords.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>The Secrets of Words</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Noam Chomsky</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;851</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;1419</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+        <a href="#bookdet1">
+            <div class="block">
+                <div class="discount">31%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/insideout.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>Inside Out</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Charlie Unwin</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;482</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;699</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+        <a href="#bookdet1">
+            <div class="block">
+                <div class="discount">26%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/gokisland.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>Gokumon Island</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Seishi Yokomizo</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;310</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;419</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+    </div>
+    
+    <h1 class="headings" id="bestseller">Bestsellers</h1>
+    <div class="newarrivals">
+        <a href="#bookdet2">
+            <div class="block">
+                <div class="discount">31%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/atomic.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>Atomic Habits</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>James Clear</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;551</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;799</del></span>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="#bookdet2">
+            <div class="block">
+                <div class="discount">29%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/rich.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>Rich Dad Poor Dad</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Robert T Kiyosaki</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;391</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;550</del></span>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <a href="#bookdet2">
+            <div class="block">
+                <div class="discount">40%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/alchemist.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>The Alchemist</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Paulo Coelho</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;150</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;250</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+        <a href="#bookdet2">
+            <div class="block">
+                <div class="discount">29%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/ikigai.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>Ikigai</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Francesc Miralles</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;391</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;550</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+        <a href="#bookdet2">
+            <div class="block">
+                <div class="discount">40%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/word.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>Word Power Made Easy</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Norman Lewis</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;105</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;175</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+        <a href="#bookdet2">
+            <div class="block">
+                <div class="discount">40%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/blue.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>The Blue Umbrella</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Ruskin Bond</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;57</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;95</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+        <a href="#bookdet2">
+            <div class="block">
+                <div class="discount">28%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/ends.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>It Ends with Us</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Colleen Hoover</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;359</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;499</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+    </div>
+
+    <h1 class="headings" id="begginer">Beginner's Friendly Books</h1>
+    <div class="newarrivals">
+        <a href="#bookdet3">
+            <div class="block">
+                <div class="discount">28%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/5am.png" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>The 5 AM Club</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Robin Sharma</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;141</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;195</del></span>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="#bookdet3">
+            <div class="block">
+                <div class="discount">35%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/secret.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>The Secret</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Rhonda Byrne</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;179</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;275</del></span>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <a href="#bookdet3">
+            <div class="block">
+                <div class="discount">31%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/tuesday.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>Tuesdays with Morrie</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Mitch Albom</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;202</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;292</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+        <a href="#bookdet3">
+            <div class="block">
+                <div class="discount">18%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/kite.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>The Kite Runner</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Khaled Hosseini</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;381</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;464</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+        <a href="#bookdet3">
+            <div class="block">
+                <div class="discount">40%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/think.png" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>Think and Grow Rich</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Napoleon Hill</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;139</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;231</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+        <a href="#bookdet3">
+            <div class="block">
+                <div class="discount">26%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/war.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>War and Peace</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Leo Tolstoy</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;999</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;1,350</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+        <a href="#bookdet3">
+            <div class="block">
+                <div class="discount">20%</div>
+                <div class="below">
+                    <div class="bookcover">
+                        <img src="images/sid.jpg" alt="">
+                    </div>
+                    <div class="bookname">
+                        <p>Siddhartha</p>
+                    </div>
+                    <div class="bookauthor">
+                        <p>Hermann Hesse</p>
+                    </div>
+                    <div class="price">
+                        <span style="color: #D2001A;">&#8377;99</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;124</del></span>
+                    </div>
+                </div>
+            </div> 
+        </a>
+    </div>
+    <div class="bookdetail" id="bookdet1">
+        <div id="everysummerafter">
+            <div class="left">
+                <div class="leftimg">
+                    <p id="discount">37%</p>
+                    <center>
+                        <img src="images/everysummerafter.jpg" alt=""><br>
+                        <input type="button" value="-" style="padding: 5px 10px;">&nbsp;&nbsp;&nbsp;<input type="text" value="1">&nbsp;&nbsp;&nbsp;<input type="button" value="+" style="padding: 5px 10px;"><br><br>
+                        <input type="button" value="Add To Cart" class="btn"><br><br>
+                        <a href="#graph1" class="pricelink">Price History</a>
+                    </center>
+                </div>
+            </div>
+            <div class="right">
+                <a href="#newarr" id="cross"><i class="fa-solid fa-rectangle-xmark"></i></a>
+                <p class="price">
+                    <span style="color: #D2001A; font-size: 1.5em;">&#8377;796</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;1264</del></span>
+                </p>
+                <div class="bookname">
+                    <p>Every Summer After</p>
+                </div>
+                <div class="booktxt">
+                    <p style="color: #D2001A; font-size: 1.3em; font-weight: bold;">About the Book</p>
+                    <p style="font-weight: bold;">Named One of the Hottest Reads of Summer 2022 by Today ∙ Parade ∙ PopSugar ∙ USA Today ∙ SheReads ∙ BuzzFeed ∙ BookBub ∙ Bustle ∙ and more!</p>
+                    <p><i>Six summers to fall in love. One moment to fall apart. A weekend to get it right.</i></p>
+                    <p>They say you can never go home again, and for Persephone Fraser, ever since she made the biggest mistake of her life a decade ago, that has felt too true. Instead of glittering summers on the lakeshore of her childhood, she spends them in a stylish apartment in the city, going out with friends, and keeping everyone a safe distance from her heart.</p>
+                    <p>Until she receives the call that sends her racing back to Barry's Bay and into the orbit of Sam Florek--the man she never thought she'd have to live without.</p>
+                    <p>
+                        For six summers, through hazy afternoons on the water and warm summer nights working in his family's restaurant and curling up together with books--medical textbooks for him and work-in-progress horror short stories for her--Percy and Sam had been inseparable. Eventually that friendship turned into something breathtakingly more, before it fell spectacularly apart.
+                    </p>
+                    <p>
+                        When Percy returns to the lake for Sam's mother's funeral, their connection is as undeniable as it had always been. But until Percy can confront the decisions she made and the years she's spent punishing herself for them, they'll never know whether their love might be bigger than the biggest mistakes of their past. Told over the course of six years and one weekend, Every Summer After is a big, sweeping nostalgic story of love and the people and choices that mark us forever.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bookdetail" id="bookdet2">
+        <div id="atomichabit">
+            <div class="left">
+                <div class="leftimg">
+                    <p id="discount">31%</p>
+                    <center>
+                        <img src="images/atomic.jpg" alt=""><br>
+                        <input type="button" value="-" style="padding: 5px 10px;">&nbsp;&nbsp;&nbsp;<input type="text" value="1">&nbsp;&nbsp;&nbsp;<input type="button" value="+" style="padding: 5px 10px;"><br><br>
+                        <input type="button" value="Add To Cart" class="btn"><br><br>
+                        <a href="#graph2" class="pricelink">Price History</a>
+                    </center>
+                </div>
+            </div>
+            <div class="right">
+                <a href="#bestseller" id="cross"><i class="fa-solid fa-rectangle-xmark"></i></a>
+                <p class="price">
+                    <span style="color: #D2001A; font-size: 1.5em;">&#8377;551</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;799</del></span>
+                </p>
+                <div class="bookname">
+                    <p>Atomic Habits</p>
+                </div>
+                <div class="booktxt">
+                    <p style="color: #D2001A; font-size: 1.3em; font-weight: bold;">About the Book</p>
+                    <p style="font-weight: bold;">THE PHENOMENAL INTERNATIONAL BESTSELLER - 1 MILLION COPIES SOLD</p>
+                    <p><i>Tiny Changes, Remarkable Results</i></p>
+                    <p>No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.</p>
+                    <p>If you're having trouble changing your habits, the problem isn't you. The problem is your system. Bad habits repeat themselves again and again not because you don't want to change, but because you have the wrong system for change. You do not rise to the level of your goals. You fall to the level of your systems. Here, you'll get a proven system that can take you to new heights.</p>
+                    <p>
+                        Clear is known for his ability to distill complex topics into simple behaviors that can be easily applied to daily life and work. Here, he draws on the most proven ideas from biology, psychology, and neuroscience to create an easy-to-understand guide for making good habits inevitable and bad habits impossible. Along the way, readers will be inspired and entertained with true stories from Olympic gold medalists, award-winning artists, business leaders, life-saving physicians, and star comedians who have used the science of small habits to master their craft and vault to the top of their field.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bookdetail" id="bookdet3">
+        <div id="5amclub">
+            <div class="left">
+                <div class="leftimg">
+                    <p id="discount">28%</p>
+                    <center>
+                        <img src="images/5am.png" alt=""><br>
+                        <input type="button" value="-" style="padding: 5px 10px;">&nbsp;&nbsp;&nbsp;<input type="text" value="1">&nbsp;&nbsp;&nbsp;<input type="button" value="+" style="padding: 5px 10px;"><br><br>
+                        <input type="button" value="Add To Cart" class="btn">
+                        <br><br>
+                        <a href="#graph3" class="pricelink">Price History</a>
+                    </center>
+                </div>
+            </div>
+            <div class="right">
+                <a href="#begginer" id="cross"><i class="fa-solid fa-rectangle-xmark"></i></a>
+                <p class="price">
+                    <span style="color: #D2001A; font-size: 1.5em;">&#8377;141</span><span style="color: #595260;">&nbsp;&nbsp;<del>&#8377;195</del></span>
+                </p>
+                <div class="bookname">
+                    <p>The 5 AM Club</p>
+                </div>
+                <div class="booktxt">
+                    <p style="color: #D2001A; font-size: 1.3em; font-weight: bold;">About the Book</p>
+                    <p style="font-weight: bold;">Part manifesto for mastery, part playbook for genius-grade productivity and part companion for a life lived beautifully, The 5am Club is a work that will transform your life. Forever.</p>
+                    <p><i>Learn about the benefits of early rising!</i></p>
+                    <p>
+                        Legendary leadership and elite performance expert Robin Sharma introduced The 5am Club concept over twenty years ago, based on a revolutionary morning routine that has helped his clients maximize their productivity, activate their best health and bulletproof their serenity in this age of overwhelming complexity.
+                    </p>
+                    <p>
+                        Now, in this life-changing book, handcrafted by the author over a rigorous four-year period, you will discover the early-rising habit that has helped so many accomplish epic results while upgrading their happiness, helpfulness and feelings of aliveness.
+                    </p>
+                    <p>
+                        Through an enchanting—and often amusing—story about two struggling strangers who meet an eccentric tycoon who becomes their secret mentor, The 5 AM Club will walk you through great lessons of life.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="headings" id="newarr">Our Recommendations</h1>
+    
+    <div class="slider">
+        <marquee behavior="alternate" direction="">
+            <div class="images">
+                <a href="https://www.portersquarebooks.com/book/9781594632327" target="_blank"><img src="images/cover1.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780316055444" target="_blank"><img src="images/cover2.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780143123064" target="_blank"><img src="images/cover3.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9781594631511" target="_blank"><img src="images/cover4.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780812992786" target="_blank"><img src="images/cover5.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780307389022" target="_blank"><img src="images/cover6.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780307472250" target="_blank"><img src="images/cover7.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780143107194" target="_blank"><img src="images/cover8.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780763676209" target="_blank"><img src="images/cover9.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780679783367" target="_blank"><img src="images/cover10.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9781594632327" target="_blank"><img src="images/cover1.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780316055444" target="_blank"><img src="images/cover2.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780143123064" target="_blank"><img src="images/cover3.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9781594631511" target="_blank"><img src="images/cover4.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780812992786" target="_blank"><img src="images/cover5.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780307389022" target="_blank"><img src="images/cover6.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780307472250" target="_blank"><img src="images/cover7.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780143107194" target="_blank"><img src="images/cover8.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780763676209" target="_blank"><img src="images/cover9.jpg" alt=""></a>
+                <a href="https://www.portersquarebooks.com/book/9780679783367" target="_blank"><img src="images/cover10.jpg" alt=""></a>
+            </div>
+        </marquee>
+    </div>
+    <div class="graph1" id="graph1">
+        <a href="#bookdet1" id="cross2"><i class="fa-solid fa-rectangle-xmark"></i></a>
+        <center>
+            <h2 class="headings" style="color: red;">Price History for the last 30 days</h2>
+            <img src="images/graph1.PNG" alt="">
+            <p class="lowest">Lowest Price Ever!!!</p>
+        </center>
+    </div>
+    <div class="graph2" id="graph2" >
+        <a href="#bookdet2" id="cross2"><i class="fa-solid fa-rectangle-xmark"></i></a>
+        <center>
+            <h2 class="headings" style="color: red;">Price History for the last 30 days</h2>
+            <img src="images/graph2.PNG" alt="">
+        </center>
+    </div>
+    <div class="graph3" id="graph3">
+        <a href="#bookdet3" id="cross2"><i class="fa-solid fa-rectangle-xmark"></i></a>
+        <center>
+            <h2 class="headings" style="color: red;">Price History for the last 30 days</h2>
+            <img src="images/graph3.PNG" alt="">
+            <p class="lowest">Lowest Price Ever!!!</p>
+        </center>
+    </div>
+    <br><br>
+
+    <div class="footer">
+        <div class="about">
+            <p>About</p>
+            <a href="#contact">Contact Us</a>
+            <a href="#about">About Us</a>
+            <a href="career">Careers</a>
+        </div>
+        <div class="help">
+            <p>Help</p>
+            <a href="#payment">Payments</a>
+            <a href="#ship">Shipping</a>
+            <a href="#return">Cancellation & Returns</a>
+        </div>
+        <div class="policy">
+            <p>Policy</p>
+            <a href="#returnpolicy">Return Policy</a>
+            <a href="#terms">Terms Of Use</a>
+            <a href="#privacy">Privacy</a>
+        </div>
+        <div class="social">
+            <p>Social</p>
+            <a href="#fb">Facebook</a>
+            <a href="#twitter">Twitter</a>
+            <a href="#youtube">YouTube</a>
+        </div>
+        <div id="vertical"></div>
+        <div id="mail">
+            <center>
+            <table >
+                <tr>
+                    <td>
+                        <h3>For any queries, write to us at:</h3>
+                        <a href="mailto:customer_care@bookmart.com"><i><h4><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;customer_care@bookmart.com</h4></i></a>
+            
+                    </td>
+                    <td class="end">
+                        <img src="images/Code Book.gif" alt="" width="200px" style="float: right;">
+                    </td>
+                </tr>
+            </table>
+            </center>
+        </div>
+    </div>
+    <div class="copy">All Rights Reserved &#169; Bookmart.com</div>
+</body>
+</html>

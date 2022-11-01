@@ -1,0 +1,3 @@
+We use external websites to track the price of products while buying stuff from E-Commerce websites. 
+I tried to show the price history of every book for the last 30 days so that the user don't have to rely on external websites.
+Also, I displayed "Lowest Price" prompt to the user if the book's price was lowest in the last 30 days.
